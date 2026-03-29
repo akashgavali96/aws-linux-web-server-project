@@ -1,0 +1,11 @@
+✅ STEP 1: Launch EC2 Instance
+
+Go to AWS Console → EC2 → Launch Instance
+
+Fill basic details:
+
+Name: my-first-server
+AMI: Amazon Linux (free tier)
+Instance type: t2.micro
+Key pair: create new (download .pem file ⚠️ important)
+
