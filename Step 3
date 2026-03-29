@@ -1,0 +1,26 @@
+Create Your Own Website
+
+Right now you see default Apache page.
+
+👉 Let’s change it.
+
+🧠 Think:
+
+Where does Apache store website files?
+
+(Hint: starts with /var/)
+
+👉 Try to guess the path first.
+
+💡 After you guess, do this:
+cd /var/www/html
+
+Create a file:
+
+sudo nano index.html
+
+Add:
+
+<h1>Hello from Akash Cloud Server 🚀</h1>
+
+Save → refresh browser
