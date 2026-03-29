@@ -1,0 +1,32 @@
+🚀 Install Web Server (Apache)
+🧠 Step 1: Update system
+
+👉 Why do we update first? (quick think—security or latest packages?)
+
+Command:
+
+sudo yum update -y
+🧠 Step 2: Install Apache (httpd)
+
+👉 In Linux, web server = a service/package
+
+Command:
+
+sudo yum install httpd -y
+🧠 Step 3: Start the service
+
+👉 Installing ≠ running (important concept)
+
+Command:
+
+sudo systemctl start httpd
+🧠 Step 4: Enable on boot
+
+👉 So it auto-starts after restart
+
+sudo systemctl enable httpd
+🧪 Step 5: Test it
+
+Now go to your browser:
+
+👉 http://<your-ec2-public-ip>
