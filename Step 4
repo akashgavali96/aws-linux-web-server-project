@@ -1,0 +1,22 @@
+Create Your First Webpage
+
+Now you’ll create your own website 🔥
+
+👉 Run this command:
+
+sudo nano index.html
+✍️ Add this inside:
+<h1>Hello Akash 🚀</h1>
+<p>My first AWS Cloud Project</p>
+💾 Save the file
+
+In nano:
+
+Press CTRL + X
+Press Y
+Press Enter
+🎯 Now Check
+
+👉 Go to browser:
+
+http://<your-ec2-public-ip>
